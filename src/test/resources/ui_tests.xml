@@ -1,0 +1,538 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Tests" parallel="tests" thread-count="4">
+
+  <listeners>
+    <listener class-name="com.epmrdpt.framework.listeners.ReportPortalListener"/>
+    <listener class-name="com.epmrdpt.framework.listeners.OpenCloseBrowserEachClassListener"/>
+    <listener class-name="com.epmrdpt.framework.listeners.AlterSuiteListener"/>
+  </listeners>
+
+<!--  <test name="Learning page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.learning.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Training management page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.training_management.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Training list page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.traininglist.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="About page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.about.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Admin - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.admin.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Group page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.group.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Training on home page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.hometraining.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Blog page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.blog.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Profile page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.profile.*"/>
+    </packages>
+  </test>
+
+  <test name="Participants page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.participants.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Center management page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.center_management.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Training page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.training.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Home page header - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.homeheader.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Edit training page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.edittraining.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Application page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.applications.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Home page footer - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.homefooter.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="FAQ page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.faq.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Home page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.home.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Blog on home page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.homeblog.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Notification page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.notification.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Training centers on home page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.hometrainingcenters.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Feedback page - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.feedback.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Home page localization - Smoke" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.smoke.homelocalization.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="News management page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.news_management.*"/>
+    </packages>
+  </test>
+
+  <test name="Events Management page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.events_management.*"/>
+    </packages>
+  </test>
+
+  <test name="Skills Management page - Smoke" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.smoke.skills_management.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Training - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.training.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Center management - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.center_management.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Learning page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.learning.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Training management page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.training_management.*"/>
+    </packages>
+  </test>
+
+  <test name="News management page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.news_management.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Training On Home page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.hometraining.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Blog page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.blog.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Profile page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.profile.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Admin - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.admin.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Training list - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.traininglist.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Group page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.group.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Home page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.home.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Settings page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.settings.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Feedback page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.feedback.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Notification - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.notification.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Home page footer - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.homefooter.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Participants page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.participants.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Applications - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.applications.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="About page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.about.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+<!--  <test name="Training Centers On Home page - Regression" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.regression.hometrainingcenters.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+  <test name="Events Management page - Regression" group-by-instances="true">
+    <groups>
+      <run>
+        <exclude name="deprecated"/>
+      </run>
+    </groups>
+    <packages>
+      <package name="com.epmrdpt.regression.events_management.*"/>
+    </packages>
+  </test>
+
+<!--  <test name="Training list api" group-by-instances="true">-->
+<!--    <groups>-->
+<!--      <run>-->
+<!--        <exclude name="deprecated"/>-->
+<!--      </run>-->
+<!--    </groups>-->
+<!--    <packages>-->
+<!--      <package name="com.epmrdpt.api.training_list.*"/>-->
+<!--    </packages>-->
+<!--  </test>-->
+
+</suite>

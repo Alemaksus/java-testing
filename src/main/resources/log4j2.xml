@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration packages="com.epam.ta.reportportal.log4j.appender" status="INFO">
+  <Appenders>
+    <Console name="ConsoleAppender" target="SYSTEM_OUT">
+      <PatternLayout
+        pattern="%d [%t] %-5level %logger{36} - %msg%n%throwable"/>
+    </Console>
+    <ReportPortalLog4j2Appender name="ReportPortalAppender">
+      <PatternLayout
+        pattern="%d [%t] %-5level %logger{36} - %msg%n%throwable"/>
+    </ReportPortalLog4j2Appender>
+  </Appenders>
+  <appender name="file" class="org.apache.log4j2.FileAppender">
+    <param name="File" value="target/test-output/tests.log"/>
+    <param name="Append" value="true"/>
+    <layout class="org.apache.log4j2.PatternLayout">
+      <param name="ConversionPattern" value="%d [Thread: %15.15t}] %7p %c{1} - %m%n"/>
+    </layout>
+  </appender>
+  <Loggers>
+    <Root level="INFO">
+      <AppenderRef ref="ConsoleAppender"/>
+      <AppenderRef ref="ReportPortalAppender"/>
+    </Root>
+    <Logger name="com.epam.reportportal.service" level="INFO" additivity="false">
+      <AppenderRef ref="ConsoleAppender"/>
+      <AppenderRef ref="ReportPortalAppender"/>
+    </Logger>
+    <Logger name="com.epam.reportportal.utils" level="INFO" additivity="false">
+      <AppenderRef ref="ConsoleAppender"/>
+      <AppenderRef ref="ReportPortalAppender"/>
+    </Logger>
+  </Loggers>
+</Configuration>
