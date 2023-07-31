@@ -4,14 +4,1105 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e081a33e-6e17-4bcd-a721-2abfba332c8a" name="Changes" comment="My New Project">
+    <list default="true" id="e081a33e-6e17-4bcd-a721-2abfba332c8a" name="Changes" comment="New Selenide Project (site: AppleInsider)">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apple_insider/AppleInsiderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apple_insider/HomePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/apple_insider/SearchPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/core/BaseTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/api/Endpoints.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/AdditionalFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/AdditionalLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/City.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Country.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/CreatedBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/ExternalTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Fact.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/FinalComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/GroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Image.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/LanguageEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/LessonDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/NewsItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/ParticipantStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/StudentStatusInGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TaskReview.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Trainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TrainerGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/Training.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TrainingForCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TrainingForSearch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TrainingOfflineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/TrainingOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/autoreply_tab/AutoReplyTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/description_tab/DescriptionBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/description_tab/DescriptionTabInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/description_tab/LocalizedProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/description_tab/RecommendedTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/Event.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventAgenda.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventCreator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventEditForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventForCopy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventOnlineFormat.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventSpeaker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventTrainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/events/EventWhatsOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/graduate_journal_entity/GraduateJournalEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/graduate_journal_entity/GraduateJournalEntityFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/group_controller/Group.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/group_controller/GroupInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/hashtag/Hashtag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/hashtag/HashtagFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/participant/GroupParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/participant/Participant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/participant/ParticipantDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/Contacts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/ProfileBasicInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/ProfileDataFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/ProfileEducationsInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/ProfileUserSkillsInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/profile/ProfileUserWorkExperiencesInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/skill_description/SkillDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/skill_description/SkillDescriptionFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/skill_information/SkillInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/skill_information/SkillInformationFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/skill_picture/SkillPicture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/Assignment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/AssignmentFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/Duration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/Notice.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/OfflineTaskMarkForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/OnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/OnlineTaskFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/task_journal/UpdateVariant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/training_center/TrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/training_center/TrainingCenterFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/training_class/TrainingClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/training_class/TrainingClassFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/training_management/TrainingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user/UserFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user_management/Filter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user_management/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user_management/UserInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/bo/user_management/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/MethodNameParseException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/NoSuchTrainingException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/NotSupportLanguageException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/UnsupportedEnvironmentException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/UnsupportedLaunchNameException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/UnsupportedLocatorStrategyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/UnsupportedModeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/exceptions/UnsupportedScopeException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/AlterSuiteListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/OpenCloseBrowserEachClassListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/ReportPortalApiTestListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/ReportPortalListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/ReportPortalParameterOverrideTestNgService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/listeners/RetrieveAuthorizationTokenListener.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/loging/Log.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/ApiProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/ApiPropertyService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/EnvironmentProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/EnvironmentPropertyConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/LocaleProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/LocalePropertyConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/ReportPortalProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/ScopeProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/ScopePropertyConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/UserProperty.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/properties/UserPropertyConst.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/runner/Runner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/AbstractScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/CustomConditions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/element/Element.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/element/LocatorManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/element/LogManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/pseudoelement/PseudoElement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/pseudoelement/PseudoElementEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/webdriver/WebDriverFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/framework/ui/webdriver/WebDriverSingleton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AboutCityTrainingCenterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AboutScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AddQuestionFAQScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AffiliateRegistrationFormScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ApplicationsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AttendanceJournalScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/AuditScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/BlogBlockOnStartPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/BlogDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/BlogScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/BlogScreenAfterSearchHashTagScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CaptchaScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CareerTestBlockScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CareerTestDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CareerTestQuestionnaireScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CareerTestResultScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CenterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ConfirmDeleteNotificationPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CreateNewsItemScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CreateOrEditTrainingCenterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/CreateUserScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EditNewsItemScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EditQuestionFAQScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EditSkillDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EventCancelRegistrationDescribeReasonPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EventPreviewScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EventRegistrationUserFormPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/EventsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ExaminatorScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/FAQScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/FeedbackScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/FooterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/GroupDetailsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/GroupsCommonTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/HeaderScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/HomeTabOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/LessonDetailPopUpScreenOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ListTabScreenOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/LoginScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/MailCatcherScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/NewsManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/NotificationAfterUserRegistrationToTheEventPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/NotificationModuleScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/NotificationPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/NotificationScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/OldHeaderScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ParticipantsTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ProfileEditionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ProfileScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAddAssignmentPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAddClassPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAddOfflineTaskPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAddOnlineTaskPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAdditionalInfoTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAssignmentContainerPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactAutoreplyTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactCancelTrainingPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactClassesDetailsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactClassesScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactCommentPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactCreateSkillDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactCreateTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactDescriptionTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactDetailTrainingCalendarScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactDetailTrainingPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactDetailTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEditClassPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventAttendeesScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventAutoreplyScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventDetailsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventGeneralInfoScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventHeaderScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactEventsManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactFooterScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactGeneralInfoTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactGraduateReportScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactGroupDetailsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactGroupJournalScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactGroupScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactHeaderScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactHomeTaskPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactImportDataPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactIntegrationTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactJournalMarkPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactLessonInfoPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactModalPageFromReactDetailTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactNotifyMembersPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactOfflineTaskCommentPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactOfflineTaskInfoPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactOnlineTaskInfoPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactParticipantsTrainingAssignACPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactParticipantsTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactRegistrationFormTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactReportScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactScheduleTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSearchScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSelectLanguageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSkillsManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactStatusChangePopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactStudentCardPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSubscribersExportPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSurveyAndTestingTabScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactSurveyPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTaskHistoryPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTaskMarkPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTasksJournalScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTrainingManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTrainingScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactTrainingTaskScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactUserDetailsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReactUserManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/RegistrationSurveyScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/RegistrationWizardScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/ReportsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SearchScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SelectLanguageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SettingsScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SkillDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SubscribeScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SurveyPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/SurveyQuestionaryPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TasksPopUpScreenOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TasksTabOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TimezoneMismatchPopUpScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainersTabOnLearningPageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingBlockScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingCenterManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingCenterOnStartScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingDescriptionScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingInfoTabOnProfilePageScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingListScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/TrainingProgramScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/UserManagementScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/screens/UserQuestionaryScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/AboutService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/BlogService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/CareerTestService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/CountryContainerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/CreateNewsItemService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/EventPreviewService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/EventRegistrationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ExaminatorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/LanguageSwitchingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/LearningService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/LoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/NotificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ProfileService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactClassService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactCommentPopUpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactDetailEventService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactDetailTrainingCalendarService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactDetailTrainingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactEventsManagementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactGraduateReportService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactGroupJournalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactLessonInfoPopUpService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactLoginService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactParticipantsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactReportsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactTaskJournalService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactTrainingClassService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactTrainingManagementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/ReactTrainingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/RegistrationForTrainingService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/SettingsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/TrainingCardsSectionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/services/TrainingCenterManagementService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/tokens_storage/TokensStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/ClipboardUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/DoubleUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/EColorUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/ExcelUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/FileUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/IntegerUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/RandomUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/elearning/utils/StringUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/applications/ApplicationsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/assignment/AssignmentTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/assignment_container/AssignmentContainerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/department_affiliate/DepartmentAffiliateTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/dream_training/DreamTrainingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventFilterControllerCountryEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventFilterControllerSkillsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventFilterStatusesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventGeneralTabControllerHashIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventManagementControllerAutoReplyEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventManagementControllerGeneralInformationEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventManagementControllerLanguagesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventManagementControllerListEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventManagementControllerTagsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventStaffingDeskTagsControllerStaffingTagsActiveEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventStaffingDeskTagsControllerStaffingTagsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventStatusControllerStatusEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventSurveyControllerUserAnswersEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/event_management/GetEventUserControllerUserDataEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/faq/FaqTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/feedback/FeedbackTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/graduate_journal/GraduateJournalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/group_journal/GroupJournalTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/group_participant/GroupParticipantTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/group_search/GroupSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/hashtag/HashtagTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/location/LocationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/messages/MessagesSearchTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/messages/MessagesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/news/NewsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/offline_task/OfflineTaskTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/preferences/PreferencesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileBasicInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileContactsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileEducationsInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfilePhotoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileUserSkillsInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/profile/ProfileUserWorkExperiencesInfoTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/registration_wizard/RegistrationWizardTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/search/SearchControllerUserSearchApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills/GetAllSkillsForHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills/GetSkillsControllerPicturesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills/SkillsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/GetSkillDescriptionControllerActiveApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/GetSkillDescriptionControllerIsLocalizedEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/GetSkillDescriptionControllerLocalizedEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/GetSkillDescriptionControllerSkillsDescriptionEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/GetSkillDescriptionControllerStringIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/skills_descriptions/SkillDescriptions.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/student_learning/StudentLearningTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/trainer/TrainerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training/TrainingTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_center/TrainingCenterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_list/TrainingListTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetAutoReplyTabControllerAutomatedDefaultEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetAutoReplyTabControllerAutomatedPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetClassStudentGroupControllerStudentsGroupsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetClassStudentGroupControllerStudentsGroupsListEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetDescriptionTabControllerPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetDescriptionTabControllerTrainingsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetDescriptionTabPlanIdCopyEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetFilterControllerCountryEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetFilterControllerSkillEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetFilterTypesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabContactCentersEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabCurrencyEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabLabEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabLocationEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabOwnerEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabPermittedLocationsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabPlanIdCopyEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabPublicIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabSkillsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabSupervisorsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGeneralTabUniversityEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupControllerGroupsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupControllerSummaryEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupParticipantParticipantsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupParticipantParticipantsListEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupStatusEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupTrainersEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupTrainersFindEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetGroupsControllerGroupsIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetMentorGroupIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantControllerCountriesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantControllerEnglishLevelsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantControllerParticipantsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantGroupsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantStatusParticipantStatusesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetParticipantStatusReasonsEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetPlanControllerPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetPlanControllerPlansEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetRegistrationAllEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetRegistrationEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetRegistrationPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetStaffingDeskTagActiveEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetStuffingDeskIntegrationPlanIdAllEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetStuffingDeskIntegrationPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetStuffingDeskTagPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetSurveyTestingDefaultEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetSurveyTestingElearnEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetSurveyTestingPlanIdCopyEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetSurveyTestingPlanIdEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetSurveyUserAnswersEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GetTrainingStatusEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_management/GroupControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/CalendarDatesTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/EventsByTrainerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/ExternalTaskContainerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/FinalCommentControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/StudentsStatusTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/TaskJournalControllerTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/TrainerGroupsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/training_process/TrainersAndLocationsByGroupsTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/user_access/UserAccessTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/user_management/GetUserFilterEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/user_management/GetUserManagementInfoApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/user_management/GetUserRolesEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/api/user_management/GetUserRolesListEndpointApiTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/data_providers/DataProviderSource.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/about/EPMRDPT_14340_VerifyThatUserCanSearchLocationsInWhereWeAreSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/about/EPMRDPT_34206_VerifyThatTrainingsAreFilteredByTheLocationOfTrainingCenterAfterClickingLinkSeeAllTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/about/EPMRDPT_70470_VerifyThatTheCardIsUnclickableIfTheSkillDescriptionIsNotInPublishedStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_14118_VerifyMenuTabsInHeaderForAdminRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_14119_VerifyGlobalSearchFeature.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_14120_VerifyThePossibilityToCreateUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_14286_14336_VerifyPossibilityToAddEditDeleteQuestionsInPageFAQ.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_26151_12994_22159_22161_22164_VerifyThePossibilityToDownloadReports.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_34320_VerifyThatTheUserWithAppropriatePermissionsCanAssignTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_59293_VerifyThatTheFollowingWarningPopUpAppearsByHittingTheAssignTestButtonInProgressStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_70226_VerifyTheContentOfUserManagementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_95762_VerifyElementsOfTheSearchPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_95765_VerifyTheAbilityToOpenUserProfileViaHyperlink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/admin/EPMRDPT_97314_VerifyTheElementsOfThePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/applications/EPMRDPT_13281_13283_13284_CheckPassRegistrationAndEnglishTestLinkAndHint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/applications/EPMRDPT_34798_VerifyContentOfTheCardWithInformationAboutDepartmentAffiliateTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/applications/EPMRDPT_34799_VerifyNameTrainingIsUnclickableForStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_13003_VerifyTheContentOfTheBannerOfTheNewsHashtagPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_13004_VerifyTheContentOfNextSectionAfterClickingOnAnyHashtag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_13005_VerifyThatAllListOfHashTagsWithShowLessAppearsAfterClickingOnShowMoreLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_14672_VerifyFirstPhotoUploadedInSliderOfArticleIsDisplayedAsPreviewImageOnHomepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_14674_VerifyArticleWithNoImageHasDefaultImageAsPreviewImageOnHomepage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_21930_VerifyThatArticleWithoutHashTagInTheListHasAllRequiredElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22277_VerifyThatTheViewMoreLinkIsNotDisplayedIfAllArticlesAreDisplayedByDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22280_VerifyThatTheOtherArticlesSectionLinksRedirectsToTheAppropriateArticleDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22281_VerifyThatTheAllArticlesLinkRedirectsToTheBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22283_VerifyBannerOfTheArticlePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22284_VerifyThatArticlesSectionContainsAllNecessaryElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_22285_VerifyThatTheListOfTheArticlesIsDisplayedWithTheFullTitleInTheOtherArticleSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_55959_VerifyThatInformationAboutNewsViewsIsSavedForAnyUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_55981_VerifyTheElementsOfTheArticlePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_70509_VerifyThatTheSkillsBlockIsPlacedAboveTheFooterBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/blog/EPMRDPT_77654_VerifyThatHashtagsAreDisplayedUnderTheBlogTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34231_34232_34256_34257_VerifyTrainingCenterContentDisplayedInEnglishByDefaultOnRuAndUkrLocaleOnTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34238_VerifyThatAllElementsOnTheTrainingCenterManagementPageArePresented.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34240_VerityEditLinkRedirectionToTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34241_VerifyThatUserCanDeleteDesiredTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34242_VerifyThatTheUserCanResetSearchCriteriaOnTheTrainingCenterManagementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34243_VerifyThatAllElementsOnTheCreateTrainingCenterPageArePresented.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34244_VerifyThatEnglishTabIsOpenedByDefaultOnTheCreateTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34245_VerifyThatUserCanCancelTheCreatingOfTheTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34246_VerifyThatUserCannotCreateTrainingCenterWithoutAnImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34248_VerifyThatUserCanSelectSeveralSkillOnCreateEditTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34249_VerifyThatUserCanCreateTrainingCenterWithAllOptionalData.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34250_VerifyIfFillsOnlyEnglishTabOnCreateEditTrainingCenterPagePopUpAppears.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34251_VerifyThatCountryAndCityDropDownsArePrefilledAndNotEditable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34252_VerifyThatSkillsAndStatusDropDownsArePrefilled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34254_VerifyWhenUserSavesWithoutFillingRequiredFieldsInEnglishAHintAppears.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34255_VerifyUserCanEnterNumbersAndSpecificCharactersInNumberField.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34258_VerifyThatCancelButtonAllowsCancellingEditingTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34259_VerifyThatUserCanDeleteImageOnTheCreateEditTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34260_VerifyTheContentOfThePreviewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34261_VerifyThatUserCanReturnToEditTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34263_VerifyTrainingCenterCardsContainAllRequiredElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_34264_VerifyThatUserCanChangeTheStatusOfTheTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/center_management/EPMRDPT_55896_VerifyElementsOfEditTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_100731_VerifyTemplateSectionForAutoEnrollmentEventWithOnlineType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_102795_VerifyMultipleVideosAreDisplayedForTheUserInCarousel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_106894_VerifyTheElementsOfFilterBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90281_VerifyTheColumnOfTheTableOnTheEventsListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90282_VerifyThatDataInTheEventListTableMatchesDataOfCreatedEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90283_VerifyTheColumnsInAttendeesTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90284_VerifyHintAppearsWhenClickOnTheQuestionIconInSurveyColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90286_VerifyTheColumnsInDownloadedExcelReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90287_VerifyThatAllFilledInInfoIsPresentOnPreviewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90290_VerifyTheElementsOfWhatIsOnBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90292_VerifyMeetOurSpeakersBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90295_97329_VerifyElementsOfTheGeneralInfoTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90298_VerifyThatTabsTransferToCorrespondingPages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90301_VerifyTheElementsOfStatusBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90305_VerifyThatElementsOfRegistrationPopUpAreExist.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90309_VerifyTheElementsOfThePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90312_VerifyTheDisplayOfTheEventsCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_90315_VerifyThatUserReceivesNotification1hBeforeTheEventStart.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94062_VerifyTheLinkToEventRecordingIsAvailableFromTheUserSide.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94063_VerifyTheElementsOfTheFiltersOfEvents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94068_VerifyEventIsCopiedWithPreFilledFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94073_VerifyThatEventIsNotDisplayedOnEventsPageIfDisplayEventCheckboxIsUnchecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94074_VerifyThatEventIsDisplayedOnEventsListPageIfDisplayEventCheckboxIsChecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94079_VerifyThatRegistrationSuccessPopUpContainsDefaultAutoreply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94083_VerifyReasonIsDisplayedOnHoveringTheIconNearRegistrationCancelledStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_94084_VerifyAttendeesPageIsOpenedAfterClickingOnNumberOfRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/events_management/EPMRDPT_99894_VerifyUserCanRegisterForOfflineEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/feedback/EPMRDPT_14334_VerifyTheContentOfFeedbackForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/feedback/EPMRDPT_14335_VerifyThatEmailFieldCannotBeLeftEmptyInFeedback.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_22146_VerifyThatTrainingManagerCanAddStudentsFromAnotherTrainingToTheGroupFromGroupPageViaAddParticipantButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_25440_VerifyTrainingManagerCanAddStudentsToTheGroupViaAddParticipantsButtonLabInProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84054_VerifyThatClassStartDateCanNotBeLaterThanClassEndDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84056_VerifyThePresenceOfTheNavigationLinks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84057_VerifyTheNavigationLinksRedirectTheUserToTheRequiredPages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84066_VerifyThatModalDialogAppearsWhenTryingToSwitchStatusGroupWithUnsavedChanges.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84067_VerifyThatUserCanDeleteTrainerFromGroupClassClickingOnBucketIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_84073_VerifyAToasterAppearsAfterGroupIsDeleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/group/EPMRDPT_89400_89401_VerifyThePresenceOfTheNavigationLinksForDATraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_34278_VerifyTheDefaultSortingOfTheTrainingCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_34305_VerifyTheAttributesUsedForQuickFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_34306_VerifyThePaidQuickFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_74520_VerifiedThatSkillDescriptionPageForTheSelectedSkillIsOpenAfterClickingTheSkillCardWithCreatedSkillDescription.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_74521_VerifyThatSkillInTheFilterCorrespondsToTheSkillOnTheChosenSkillCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_74522_VerifyThatSkillDescriptionOnTheCardIsLocalizedAccordingToTheLanguageSelectedByTheUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_77705_VerifyTheOptionsOfMainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/home/EPMRDPT_77722_VerifyAllOfTheTrainingLanguageAbbreviationsAreShownOnTheCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/homefooter/EPMRDPT_13011_VerifyThatAllLinksToTheSocialNetworksInTheFooterAreActive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/homefooter/EPMRDPT_21914_VerifyThatTwitterIconInTheFooterSectionIsHighlightedWhenHoverOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/homefooter/EPMRDPT_21916_VerifyThatFacebookIconInTheFooterSectionIsHighlightedWhenHoverOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/homefooter/EPMRDPT_21918_VerifyThatLinkedInIconInTheFooterSectionIsHighlightedWhenHoverOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_22073_VerifyFirstNameSurNameEmailFieldsAutoFilledInDreamTrainingPopup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_22272_VerifyDreamTrainingPopUpIsDisplayedWhenWeSubscribeToTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_34272_VerifyThatContactInformationIsDisplayedOnTheTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_34682_VerifyTheBannerOfTheTrainingProgramOnTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_34683_VerifyTheElementsOnTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometraining/EPMRDPT_44717_VerifyTheSpecialInformationAboutTrainingProgramOnTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/hometrainingcenters/EPMRDPT_59629_VerifyThatUserCanBeRedirectedToParticularSkillDescriptionPageFromTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EMPRDPT_13279_VerifyStatusesInInactiveTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EMPRDPT_13280_VerifyTrainingStatusesInCompleteTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13120_VerifyNavigationOnSchedule.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13121_VerifyThatLessonTopicIsSeenOnDayTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13122_VerifyViewOfLessonTimeAndTopicIsSeenOnWeekTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13123_VerifyThatLessonsTimeTopicsAreSeenOnListTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13130_VerifyStudentCannotSubmitClosedOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13137_VerifyThatStudentCanNotSeeTrainerCommentForRejectedOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13140_VerifyPassEnglishTestLinkRedirectsToEnglishTestPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13195_VerifyPriorityNotificationDoesNotDisappearUntilUserHasPassedAllRequiredTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13197_VerifyPriorityMessageAboutPassingEnglishTestIsNotDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13198_VerifyThatUserWithExpiredEnglishTestResultsIsRedirectedToExaminator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13273_VerifyRejectedOnlineTaskPopUpContentOfEpamTrainingGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13274_VerifyPassedOnlineTaskPopUpContentOfEpamTrainingGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_13285_VerifyPassRegistrationTestLinkRedirectsToRegistrationTestPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_14370_VerifyRegistrationSurveyPopUpDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_14372_VerifyThatUserCanPassTheEnglishTestAgainAfterTestHasExpired.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_30507_VerifyPopUpForExpiredOnlineTaskForDepartmentAffiliateClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_34600_VerifyTheElementsOnThePageWithSimplifiedRegistrationForm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_53631_VerifyThatItIsPossibleToAttachOnlyOneFileWithTheUniqueNameDuringTheOnlineTaskSubmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56032_VerifyThatSimplifiedRegistrationFormIsDisplayedToApplicantsIfCorrespondingRegistrationFormIsSelected.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56201_VerifyThatTheStudentIsNotAbleToSubmitTheOnlineTaskOnceMoreIfItsApproved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56202_VerifyStudentCannotSubmitOverdueOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56207_VerifyStudentCannotAttachMoreThanTenFilesInAssignedCurrentOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56209_VerifiedTheFeaturesOfDisplayingTheSubmittedOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56210_VerifiedTheFeaturesOfDisplayingTheReassignOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56215_VerifyThatStudentCanNotSeeMarksForOfflineAndOnlineTasksWhenTheTrainerSelectCorrespondedOptionOnTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56215_VerifyThatStudentCannotSeeMarksForOnlineTasksWhenTheTrainerSelectCorrespondedOptionOnTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56219_VerifiedTheFeaturesOfDisplayingTheExpiredOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56227_VerifyThatCommentForTrainerDoesNotDisplayForVerifiedOnlineTaskInTheTaskTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56231_VerifyThatTheStudentIsNotAbleToSubmitTheOnlineTaskIfNoAttemptsLeft.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_56232_VerifyThatAnAssignedOnlineTaskCanBeCanceledDuringTheSubmission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_78297_VerifyTheElementsOfTheDepartmentAffiliateRegistrationWizard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_93807_VerifyTheElementsOfTheCustomRegistrationWizardBasicInfoTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_93808_VerifyTheElementsOfTheCustomRegistrationWizardEducationTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_93809_VerifyTheElementsOfTheCustomRegistrationWizardWorkExperienceAndSkillsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_94080_VerifyThatRegistrationSuccessPopUpContainsCustomAutoreplyText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_98382_VerifyThatPopUpForReassignOnlineTaskIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_98383_VerifyThatPopUpForRejectedOnlineTaskIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_98384_VerifyThatPopUpForSubmittedOnlineTaskIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/learning/EPMRDPT_98535_VerifyThatPopUpForPassedOnlineTaskIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14320_VerifyThatAllNewsAreSortedInDescendingOrderFromTheNearestPublicationDateByDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14321_VerifyThatAllRequiredFieldsInSearchSectionContainHintByDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14322_VerifyThatApplyAndResetButtonsWorkCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14323_VerifySearchBySubjectFunctionalityWorksCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14324_VerifyListOfActionsByClickingOnEllipsis.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14325_VerifyThatNewsItemIsDeletedAfterClickingDeleteButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14326_VerifyThatNewsItemStaysInTheNewsListAfterClickingCancelButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14327_VerifyCategoryDropdownContainsAllRequiredCategories.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14328_VerifyHashTagsDropdownConsistsOfTheTagsList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14329_VerifyAllLinksOfFooterOfNewsManagementPageAreActive.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14331_VerifyThatAllNewsItemsAreShownAccordingToLanguageThatUserChooses.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_14332_VerifyNewsItemCreatedInSingleLanguageIsDisplayedInAllLocale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/news_management/EPMRDPT_55960_VerifyThatUserCanInsertALinkToTheVideoOnCreateNewsItemPageInAnyCategory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_13139_VerifyNotificationsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_22480_VerifyThatUserCanGetNotificationWithAutomaticReplyText.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_70430_VerifyThatTimezonePopUpIsDisplayedWhenUserSwitchesBetweenPages.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_77652_VerifyThatUserReceivesCustomAutoreplyLetterAfterRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_87271_VerifyThatUserCanOpenEnglishTestByLinkInTheEnglishTestReminderEmailNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/notification/EPMRDPT_87272_VerifyThatUserGetsEmailNotificationsAfterRegistrationForTrainingIfThereIsNoEnglishTestResultsInUserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_100740_VerifyThatAutoRejectedStatusChangesToNewAfterReAssignEnglishTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_100745_VerifyThatAutoRejectedStatusChangesToNewAfterReAssignAC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_102791_VerifyThatCertificateColumnContainsYesValueIfCandidateSelectedCertificateOptionInProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_102792_VerifyThatEnglishLevelDDLContainsEnglishLevelValuesThatCandidatesHaveInThisTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_105589_VerifySyncToSDColumnIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_106891_VerifyThatResultInEnglishTestColumnIsALink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_26152_26169_VerifyThatGoToSurveyReportButtonDownloadsSurveyReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_56444_VerifyThatPersonalResumeIsDownloadedViaCViconOnTheParticipantsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_56447_VerifyThatAllAddedResumeIsDownloadedAsZipFileFromParticipantsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_59837_VerifyApplyButtonInitiatesTheSearchAccordingToTheSelectedFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_7778_VerifyIfATrainingManagerCanAddParticipantsToATrainingViaAddManyButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79688_VerifyTheAbilityToDoBulkSelectionOfParticipants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79707_VerifyTheClickableElementsInTheBreadcrumbs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79786_VerifyThatTheParticularNumberOfParticipantsCanBeChosenInShowNElementsDDL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79788_VerifyCheatingIconIsDisplayedInRatingColumnOfAUserWhoHasBeenDetectedInCheatingAndCanBeDownloadedIntoExcelFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79794_VerifyTheAbilityToConfigureTheParticipantsListTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79796_VerifyThatChangesOfColumnConfigurationAreSavedForCurrentTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_79799_VerifyTheAbilityToMoveParticipantsFromOneGroupToAnother.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_90320_VerifyThatSubscribersToExcelButtonIsEnableIfTheTrainingHasAtLeastOneSubscriber.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_92342_VerifyThatCityDDLContainsOtherOption.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_94085_VerifyTheAbilityToFilterParticipantsAccordingToMultipleEmails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_97311_VerifyElementsOfStatusChangePopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/participants/EPMRDPT_99128_VerifyTheStatusesThatAreDisplayedOnGeneralInformationCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_12993_VerifyThatUserLocationIsAutomaticallyUploadedFromTheProfileToTheLocationsDropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_13001_VerifyThatUserCanSeeEnglishLevelInTheProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_13013_VerifyThePresenceOfProfilePhotoImageOnMainSectionOfTheProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_13160_VerifyThatUserIsAbleToSetEpamSystemsAsCompanyNamesAsTheUserPostgraduateWorkplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_13164_VerifyThatItIsPossibleToSetCompanyNameAsTheUsersPostgraduateWorkplace.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_24555_VerifyOpenInformationTabIsDisplayedInProfessionalInfoTabInProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_24556_VerifyContentOfOpenInformationTabInEditProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_30560_VerifyThatUserCanAddAdditionalInformationOnProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_34265_VerifyContinueTestButtonIsDisplayedProfileIfTheUserHasPassedTestButTestResultIsNotDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_48590_VerifyTheContentOfTheDocumentsSectionInTheProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_48591_VerifyThePossibilityToUploadDocumentsOnTheEditProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_48592_VerifyDocumentCanBeUploadedToProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/profile/EPMRDPT_56892_VerifyThatRecruiterCanAssignEnglishTestIfTheTestIsInProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_13161_VerifyThatItIsPossibleToChangePortalLanguageViaSettings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_13166_VerifyNotificationLanguageDropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_13167_VerifyListOfLanguageInNotificationLanguageDropdownIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_13170_VerifyThatMainSectionOfNotificationDependsOnChosenValueInNotificationLanguageDropdown.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_14337_VerifyUnsubscribeFromEmailNotificationsCheckboxIsSituatedOnSettingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_14339_VerifyThatSettingOfCheckboxForUnsubscribingIsSavedIfUserSavesChangesOnSettingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_55996_VerifyThatCheckboxForUnsubscribingIsUncheckedByDefault.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/settings/EPMRDPT_77706_VerifyPressingCogwheelInMainMenuOpensSettingsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38697_VerifyThePresenceAllBasicElementsOnTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38699_VerifyThatCalendarIsDisplayedInTheLanguageChosenByTheUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38712_VerifyThatUserSeeOrangeDotsAtCalendarOnTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38713_VerifyThatTheCurrentDateIsCircledInBlueByDefaultAtCalendarOnTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38720_VerifyThatUserCanSeeTheScheduleForChosenDate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38721_VerifyThatAUserCanCallsTheGeneralClassInfoPopUpInTheDayViewModeMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38722_VerifyAUserCanOpenEditClassPopUpFromTheGeneralClassInfoPopUpForTrainers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38723_VerifyThatUserDeleteClassOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38724_VerifyAUserCanOpenCorrespondedGroupJournalFromTheGeneralClassInfoPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38725_VerifyThatAllElementsDisplayOnTheGeneralClassInfoPopUpOnTheMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38726_VerifyThatARecurrentClassIsMarkedWithIconOnTheClassInfoPopUpOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38742_VerifyThatAUserCanCallsTheGeneralClassInfoPopUpInTheWeekViewModeOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_38743_VerifyCallsTheGeneralClassInfoPopUpInMonthViewModeMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39915_VerifiedThatAllElementsOfTheHeaderOfTheScheduleAreDisplayedForMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39916_VerifyThatAllElementsOfTheDayViewModeOfTheScheduleIsPresentedOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39917_VerifyThatAllElementDisplayInClassTicketInTheDayViewOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39918_VerifyClassNameInTheMonthViewScheduleOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39919_VerifyTypeOfTheClassInTheDayViewScheduleOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39921_VerifyThatClassInfoPopupDisplayedOnClickingLessonTicketInMonthViewScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39923_VerifyThatCurrentTimeLineMarksTheCurrentTimeOnTheDayViewScheduleOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39924_VerifyTimeOfTheClassInTheDayViewScheduleOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39925_VerifyThatUserCanSeeTaskTicketsOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39927_VerifyTheContentOfTaskTicketsOnMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39929_VerifyThatUserCanOpenPopUpWithSubmittedTaskOnTheMyScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_39942_VerifyTheContentOfTaskTicketForTheDayViewOnTasksCalendarTabAtTheDayView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44724_VerifyThatAllElementsDisplayOnTheGeneralClassInfoPopUpOnTheMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44728_VerifyTheMyScheduleTabIsOpenedByDefaultOnTrainingPageForUsersWithPermission.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44737_VerifyThatUserCanOpenOnlineTaskInfoPopoverOnTasksCalendarAtDayView.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44740_VerifyThatUserCanOpenCheckPopUpWindowFromTaskInfoPopoverInTheTaskCalendar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44744_VerifyTheAllElementsOnTheMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44745_VerifyThatUserCanUseSearchbarForSearchByTypingGroupNameOnTheMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44756_VerifyThatItIsPossibleToChangeLanguageOnTheTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44761_VerifyThatUserCanCallsUpTheAddClassButtonAndScheduleComponentOnMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44762_VerifyThatAllElementDisplayInClassTicketInTheDayViewScheduleOnMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44766_VerifyThatAllElementsOfTheGroupJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44769_VerifyThatUserCanRateStudentKnowledgeAndSaveCommentsUsingMarkPopUpInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44770_63773_VerifyThatAUserCanMarkAndCancelTheAbsenceOfTheStudentForTheClassInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44771_VerifyTheElementsOfTheGeneralClassInfoPopUpInGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44772_VerifyThatUserCanDeleteASingleClassInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44773_VerifyTheElementsOfStudentCardInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44774_44775_VerifyThatAverageMarkAndSkippingClassInDynamicComputationInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44777_VerifyThatAllElementsOfTheTaskJournalTabAreDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_44778_VerifyTheElementsOfStudentCardInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_46348_VerifyThatARecurrentClassIsMarkedWithIconOnTheClassInfoPopUpOnMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50946_VerifyTheElementsOfOfflineTaskPopoverInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50951_VerifyTheElementsOfOnlineTaskInfoPopoverInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50952_50954_VerifyThatUserCanAddAndDeleteOfflineTaskInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50953_50955_VerifyThatUserCanAddAndDeleteOnlineTaskInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50956_VerifyUserCannotDeleteOnlineTaskIfStatusIsNotUnassignedInTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50957_VerifyThatUserCanUseBreadcrumbsForTrainingsOnTheTrainingJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50958_VerifyThatUserCanUseBreadcrumbsForGroupsOnGroupJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50959_VerifyThatUserCanUseBreadcrumbsForGroupsOnTaskJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50960_VerifyThatUserCanUseBreadcrumbsForGroupsOnSchedulePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50961_VerifyThatUserCanUseBreadcrumbsForGroupsOnGraduateReportPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50962_50968_50969_VerifyThatUserCanUseSwitcherBetweenGroupsOnTabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50967_VerifyThatUserCanUseSwitcherBetweenGroupsOnSchedulePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_50971_VerifyThatUserCanRateTheStudentKnowledgeOnTheOfflineTaskUsingMarkButtonInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_51206_VerifyTheUserCanSeeCommentsInTheCommentPopoverGroupJournalGrid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_51219_50922_VerifyThatUserCanCreateAndDeleteClassSeriesOnGroupJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_51220_VerifyThatUserCanCreateClassSeriesUntilPickedDateOnGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_53948_VerifyThatAllElementsOfTheTablePageAreDisplayedInTheGraduateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_53949_VerifyThatBasicDataCorrespondsSelectedForValueOfTheDesiredGroupInTheGraduateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_53953_VerifyThatAUserCanAddFinalCommentInTheCommentColumnInTheGraduateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54098_VerifyThatAverageColumnContainsAverageMarkForStudentInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54099_VerifyThatAbsenceCellContainsTheSumOfSkippingClassesForAStudentInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54102_VerifyTheCalculationOfTheAverageMarkValueInTheCellInAverageMarkColumnInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54104_VerifyThatAUserCanDownloadTheFileAttachedByAStudentInTheCheckPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54105_VerifyThatUserCanRejectSubmittedTaskUsingCheckPopUpWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54106_VerifyThatItIsPossibleToMoveToNextStudentOnPopUpWindowWithSubmittedTaskInTheCheckPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54146_VerifyThatUserCanGiveFractionalMarkForOfflineTaskUsingYourMarkFieldInTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_54177_VerifyThatAUserCanDeleteOwnFinalCommentInTheGraduateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_55658_VerifyThatAUserCanChangeStudentsStatusesInTheGraduateReportTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_56443_VerifyThatPlannedTrainingCanBeCreated.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_59306_VerifyThatUserCanUploadDataForOfflineTaskUsingExcelTemplateInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_59312_VerifyThatTheTaskHistoryPopUpDisplaysDataWhichMatchesToTheCertainStudentInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_77726_VerifyThatTheReviewerColumnIsDisplayedInTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_79516_VerifyThatTrainerCanSeeStudentCardInTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_79518_VerifyTrainerCanSeeStudentCardInGraduateReportTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_79520_VerifyTrainingTabContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_86398_VerifyThatSectionAboutPaidDetailsIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training/EPMRDPT_88042_VerifyTheBlockIsNotDisplayedOnTrainingDetailsPageAfterClickingOnVisibilityIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_100708_VerifyThaPassingScoreIsRequiredIfTrainingHasAutoAssessmentSelfStudyType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_106896_VerifyThatАutoreplyTextCanBeDownloadedByClickingExportToWordButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13051_VerifyThatTrainingManagerCanAddParticipantsToTrainingViaAddButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13060_13061_13267_13256_VerifyNavigationOnTrainingTabPageUsingBackToTrainingListLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13063_VerifyTrainingManagerCanCreateCopyOfTheTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13064_VerifyThatTrainingManagerCanEditInformationInEveryFieldInCopiedTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13066_VerifyTrainingManagerCanSaveListSelectedParticipantsToExcelFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13069_VerifyThatTrainingManagerCanViewStudentAnswersToRegistrationSurveyInTheUseProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13073_VerifyTrainerGetsNotificationsAboutChangingStatusOfTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13074_VerifyTrainingManagerCanSetUpAutomaticReply.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13076_VerifyThatSearchOptionsAreSavedIfSaveSearchOptionsCheckboxIsChecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13078_VerifyThatUserCanAddLanguageForTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_13278_VerifyThatTrainingManagerCanViewStudentAnswersToRegistrationSurveyOnTheQuestionaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14288_VerifyThatTrainingManagerCanViewStudentAnswersToRegistrationSurveyOnTheParticipantsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14291_VerifyLinkOfAssignmentContainerIsNotCopiedFromTheOriginalTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14293_VerifyTrainingManagerCanAddSeveralGroupsForOneTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14298_VerifyIfTrainingManagerCanChangeTrainingStatusToPlanned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14301_VerifyThatTrainingManagerCanSetUpTrainingProgram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14304_VerifyThatTrainingsParticipantsPageContainsRatingColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14306_VerifyThatUserHasRatingDisplayedUponSuccessfullyCompletingACTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14307_VerifyThatUsersAddedToTheTrainingByTheTrainingManagerHaveTheirResultsDisplayedAsA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14308_VerifyThatUsersWithNARatingValueAreDisplayedOnParticipantsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14309_VerifyThatValueDisplayedWithALightBlueBackground.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14310_VerifyThatTrainingsParticipantsPageContainsColumnEnglishTestResults.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_14352_VerifyThatTrainingManagerCanDownloadExcelFileWithListOfTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_24596_VerifyThatTheNameLinkOnTheParticipantsPageRedirectsToTheQuestionaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_24597_VerifyTheContentOfQuestionaryPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_24598_VerifyThatTheBackButtonOnQuestionaryPageRedirectsToTheParticipantsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_34233_VerifyThatUserCanOpenAnotherCardOnFastFactsTabByClickingTheCorrespondingDot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_34560_34420_34455_34419_34418_34477_VerifyDdlOptionsOnCreateNewTrainingPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_34816_VerifyStaffingDeskSectionNotDisplayedOnTrainingDetailsForTrainingWithDA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_55914_VerifyThatTheUserIsAbleToAddATechnicalRequirementsFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_55915_VerifyThatItIsPossibleToCreatePaidOrFreemiumTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_68046_VerifyTheAbilityToReassignACForStudents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_71919_VerifyThatNoteIsDisplayedIfNoSDPoolIsLinkedToTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_71964_VerifyMainNavigationTabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_71984_VerifyTrainingIsCopiedWithPreFilledFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77615_VerifyThatAllFilledInFieldsInTheCustomTextBlockAreDisplayedOnTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77617_VerifyThatAllFilledInFieldsInTheUpperFieldsSectionExceptOfTheMetaTagsAreDisplayedOnTheTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77633_VerifyElementsInBreadcrumbsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77634_VerifyMainTrainingTabsAreDisplayedOnStageOfEditingTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77635_VerifyMainTrainingTabsAreDisplayedOnStageOfCreatingTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77637_VerifyTheWarningAboutTheLackOfRightsToEditTheTrainingInSpecifiedLocation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77640_VerifyTheFieldsThatAreNotPreFilledInWhenCopyingADepartmentAffiliateTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77643_VerifyThatSkillDescriptionBlockIsDisplayedWhenTheToggleDisplayOnTrainingEditPageIsON.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77648_VerifyDepartmentAffiliateTrainingIsCopiedWithPrefilledFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77649_77650_VerifyTheUIElementsOfAutoreplyTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77655_VerifyTheSectionsOfTheSurveyAndTestingTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77660_VerifyTheDataInStandardSurveyTemplate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77665_VerifyThatLinkByCodeButtonIsActiveAndNoHintIsDisplayedIfTheTrainingIsSaved.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77671_VerifyTheElementsOfAPopoverDisplayedOnHoverOnRevisionHistory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77675_VerifyTheAvailableFieldsOnGeneralInfoTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_77680_77681_77682_71982_VerifyElementsOfRegistrationFormsOnRegistrationFormTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_79807_VerifyColumnsOfTheSurveyResultsInDownloadedDocument.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_82086_VerifyThatTextBlockSectionContainsNecessaryFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84044_VerifyThatAGroupCanBeCreatedIfTrainingWithEndDateIsInFormGroupStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84046_VerifyThatAClassCanBeCreatedIfDATrainingIsInFormGroupStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84050_VerifyThatSelectedGroupsAreAddedToClassViaAddButtonInDATraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84063_VerifyTheElementsOfStatusChangePopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84068_84069_VerifyTheElementsOfTheCancelTrainingPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84074_VerifyHintAppearsOnHoveringBucketIconForTheGroupInLearningStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84075_VerifyHintAppearsOnHoveringBucketIconForTheGroupInFinishedStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84076_VerifyThatBucketIconIsDisabledIfGroupContainsOnlyOneParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84084_VerifyTheAbilityToSelectOneParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84085_VerifyElementsOfParticipantsSelectionForTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84089_VerifyThePresenceOfCheckboxHideGroupInGroupDetailsSectionInTheTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84090_VerifyThePresenceOfCheckboxHideClassInClassDetailsSectionInDA.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84091_VerifyGroupSectionIsHiddenFromLearningPartIfCheckboxHideGroupIsChecked.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84093_VerifyIconWithTooltipIsPresentNextToCheckboxHideGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_84094_VerifyIconWithTooltipIsPresentNextToTheCheckboxHideClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_86399_VerifyTheElementsOfGeneralInfoTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_86401_VerifyThatIfSelectedEducationPracticeTrainingTypeTheSystemShallDisplayTwoTabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_86402_VerifyThatCopyRegistrationLinkButtonIDisplayedInPlannedStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_87281_VerifyThePresenceOfNecessaryElementsOfUpperFieldsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_87285_VerifyThatDownloadedExcelFileContainsDataAccordingToTheSetCriteria.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_89901_VerifyThatSubscribersReportExcelFileIsDownloadedAfterClickingOnAnyNumberInTheСSBRColumn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/training_management/EPMRDPT_99125_VerifyTheRegistrationIsCancelledStatusIsDisplayedForUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_22442_VerifyContentSubscribeToTrainingPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34234_VerifyPreviousSkillFilterIsResetAfterClickingAvailableTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34235_VerifyThatAnotherFeedbackIsOpenedByClickingOnTheCorrespondingDot.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34307_VerifyTheActualQuickFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34308_VerifyTheOnlineQuickFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34313_VerifyThatOptionsArePresentedOnByTypeTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34315_VerifyThatTheUserCanSelectOneOrManySearchCheckboxesByType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_34316_VerifyThatTheUserCanSelectCheckboxesFromDifferentSearchTabsAtTheSameTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_59630_VerifyThatAUserCanBeRedirectedToTheParticularSkillDescriptionPageFromTheTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_60184_VerifyLocationItemsInTheInfoBlockOnTheTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_60430_VerifyThatUserCanBeRedirectedToParticularSkillDescriptionPageFromTrainingDescriptionPageByClickingMoreLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_92324_VerifyTheElementsOfCareerTestBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_92328_VerifyAllBlocksOfCareerTestResultsPageAreDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_92329_VerifyCareerTestBodyPageIsOpenedAfterClickingRestartTestButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_97305_VerifyThatPopUpAppearsIfTheUserCountryDoesNotMatchTheTrainingRequirement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/regression/traininglist/EPMRDPT_97306_VerifyElementsOfThePopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_12991_VerifyTheContentOfAboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_13221_VerifyTheHistorySectionOfAboutPageContest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_13222_VerifyTheBannerSectionOfAboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_13223_VerifyWhereWeAreSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_13224_VerifyTheHowToJoinUsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22443_VerifyAfterClickingOnTheHomeLinkOnTheAboutPageThePortalRedirectsToHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22446_VerifyTheRegistrationBannerOfStepsSectionIsPresentedAfterClickingOnRegistrationLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22447_VerifyTheContentOfRegistrationBannerOfStepsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22449_VerifyThatTheInterviewStagesBannerOfStepsSectionIsPresentedAfterClickingOnInterviewStagesLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22450_VerifyTheContentOfInterviewStagesBannerOfStepsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22451_VerifyThatTheTrainingStagesBannerOfStepsSectionIsPresentedAfterClickingOnTrainingStagesLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22452_VerifyTheContentOfTrainingStagesBannerOfStepsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22453_VerifyThatTheWorkingAtEpamBannerOfStepsSectionIsPresentedAfterClickingOnWorkingAtEpamLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22454_VerifyTheContentOfWorkingAtEpamBannerOfStepsSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22456_VerifyMapSectionContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22464_VerifyThatAfterClickingOnTheArmeniaButtonTheArmeniaLocationsContainerSectionAppearsOnTheLeftSideOfTheMapArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22465_VerifyThatAfterClickingOnTheBelarusButtonTheBelarusLocationsContainerSectionAppearsOnTheLeftSideOfTheMapArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22466_VerifyThatAfterClickingOnTheKazakhstanButtonTheKazakhstanLocationsContainerSectionAppearsOnTheLeftSideOfTheMapArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22467_VerifyThatAfterClickingOnTheRussiaButtonTheRussiaLocationsContainerSectionAppearsOnTheLeftSideOfTheMapArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_22468_VerifyThatAfterClickingOnTheUkraineButtonTheUkraineLocationsContainerSectionAppearsOnTheLeftSideOfTheMapArea.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_34204_VerifyOurTrainingCentersSectionOnAboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/about/EPMRDPT_70511_VerifyThatTheSkillsBlockIsPlacedAboveTheFooterAboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/admin/EPMRDPT_97281_VerifyThatUserDataInTheTableMatchesUserDateOnEditUserPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/admin/EPMRDPT_97302_97303_VerifyThatANewRoleCanBeAddedToUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_13039_VerifyTheContentOfActiveTabOfApplicationsPageIfUserHasNoTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_13116_VerifyThatUserHasAccessToApplicationsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_13117_VerifyStudentCanCancelRegistrationForTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_13205_VerifyThatUserActiveTrainingsAreDisplayedOnApplicationsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_13248_VerifyThatApplicationsTabIsDisplayedCorrectly.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_26000_VerifyTheContentOfApplicationsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_26002_VerifyTheContentOfInactiveTabOfApplicationsPageIfUserHasNoTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/applications/EPMRDPT_26003_VerifyTheContentOfCompletedTabOfApplicationsPageIfUserHasNoTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13002_VerifyUserCanSearchAnArticleByHashTag.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13044_VerifyArticlesDescriptionPageIsOpenedWhenUserClicksOnTheArticlesTitle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13045_VerifyThatArticlesInTheListHasAllRequiredElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13046_VerifyAnArticleDescriptionPageIsOpenedWhenUserClickOnTheArticlesPreviewImage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13225_VerifyReadButtonOnBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13226_VerifyThatUserCanSwitchArticlesCategoriesByClickingTheAppropriateTabs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13227_VerifyTheContentBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_13228_VerifyTheViewMoreLinkOnBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_14538_VerifyAfterClickingOnTheViewMoreLinkOnBlogPageTheSectionUploadsYetSeveralArticlesCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_14539_VerifyThatAfterClickingOnTheNewsTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22469_VerifyThatAfterClickingOnTheHomeLinkOfTheBlogMainPageThePortalRedirectsToHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22470_VerifyTheBannerSectionContentOfTheBlogMainPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22472_VerifyThatAfterClickingOnTheRealStoriesTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22476_VerifyThatAfterClickingOnTheHardSkillsTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22477_VerifyThatAfterClickingOnTheSoftSkillsTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPMRDPT_22478_VerifyThatAfterClickingOnTheEventsTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/blog/EPRMDPT_22473_VerifyThatAfterClickingOnTheMaterialsTabOnBlogPageTheSectionUploadSeveralArticleCards.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34196_VerifyUserHasAccessToCenterManagementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34197_VerifyThatTheCreateTrainingCenterPageIsOpenedAfterClickingCreateTrainingCenterButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34198_VerifyThatTheUserCanSearchCreatedTrainingCentersByCountryByCityByStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34199_UserCanCreateTheTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34200_VerifyThatOnlyTrainingCentersWithPublishedStatusArePresentedOnTheAboutPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34201_VerifyEditTrainingCenterPageIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34202_VerifyThatSaveButtonAllowsSavingTheChangesToTheTrainingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34203_VerifyThatUserCanOpenPreviewPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34205_VerifyThatTrainingCenterPageIsAvailableAfterClickingOnTheCardOfCorrespondingCenter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_34239_VerityViewLinkRedirectionToTrainingCenterPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_97280_VerifyThatEditUserIsOpenAfterClickingUserName.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/center_management/EPMRDPT_97295_VerifyTheAbilityToSearchForUserViaSearchBarAndFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_100709_VerifyThePossibilityOfLinkingACToAutoAssessmentSelfStudyTrainingType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_13191_VerifyFieldsMinimumExpectedEnglishLevelFieldAppearsWhenCheckboxUseEnglishTestResultIsSwitchedOn.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_13259_VerifyThatTrainingManagerCanCreateATraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_13260_VerifyNotifyMembersPopUpIsDisplayedOnTheTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_13282_VerifyPreviewButtonOnTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_30813_VerifyThatCreateTrainingPageOpensAfterClickingCreateTrainingButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/edittraining/EPMRDPT_34277_VerifyThatPossibleToShareTheRegistrationLinkForDepartmentAffiliate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_100719_VerifyThatAllFilledInFieldsInTheCustomTextBlocksAreDisplayedOnTheEventDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_106893_VerifyTheAbilityToUseFiltersAndSearchBarTogether.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90293_VerifyTheElementsOfAgendaBlock.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90294_VerifyThatInformationOfDescriptionBlockIsDisplayedOnTheEventDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90300_VerifyThatUserCanSaveChangesInTheCreatedEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90302_VerifyThatPublishButtonIsPresentOnThePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90303_VerifyThatEventsWithTheStatusPublishedArePresentOnThePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90306_VerifyThatUserCanRegisterIfAllRequiredFieldsAreFilled.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90307_VerifyThatUserAppearsInTheAttendeesListAfterRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90310_VerifyThatJoinOnlineIsDisplayedForRegisteredForEventUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90313_VerifyEventsDetailsPageOpensByClickingOnTheEventCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_90314_VerifyThatUserReceivesNotificationAfterSuccessfulRegistrationForAnEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_94064_VerifyTheFoundEventsCorrespondTheSelectedFilters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_94065_VerifyTheEventsAreDisplayedAccordingToTheSelectedSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_97319_VerifyThatEventWithClosedRegistrationTypeDoesNotDisplaysOnEventsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_97321_VerifyThatTheCopyRegistrationLinkButtonIsDisplayedIfTheEventIsInThePublishedStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/events_management/EPMRDPT_97322_VerifyThatUserCanRegisterForTheEventWithClosedRegistrationType.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/faq/EPMRDPT_13230_VerifyContentFAQScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/faq/EPMRDPT_13231_VerifyTheQuestionsSectionOfTheFAQPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/faq/EPMRDPT_14546_VerifyNormalQuestionsStateInQuestionsSectionOfTheFAQPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/faq/EPMRDPT_21937_VerifyBannerSectionFAQScreen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/faq/EPMRDPT_70510_VerifyThatTheSkillsBlockIsPlacedAboveTheFooterFaqPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/feedback/EPMRDPT_13238_VerifyFeedbackIcon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_13053_VerifyTrainingManagerCanAddGroupForTheTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_13054_VerifyThatTrainingManagerCanAddStudentsToTheGroupViaAddButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_13056_VerifyThatTrainingManagerCanDeleteStudentFromTheGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_13058_VerifyThatTrainingManagerCanSetLearningStatusToTheGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_13263_VerifyContentOfGroupAtDifferentUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_14296_VerifyTrainingManagerCanAddStudentsToTheGroupViaAddParticipantsButtonTrainingInProgress.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_30996_VerifyThatManagerCanFinishGroupForStudentsInDismissedFromTrainingStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_48123_VerifyThatTrainingManagerCanOpenTheGroupPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_84049_VerifyThatParticipantsFromOtherTrainingAreAddedToListTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_84055_VerifyThatChangesAreSavedByClickingOnSaveChangesButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_84072_VerifyBucketIconIsEnabledForTheGroupInFormationStatusIfThereAreNoTrainersAndStudentsInIt.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_84080_VerifyUserCanPerformBulkDeletionOfParticipants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPMRDPT_84081_VerifyClickingOnBucketIconDeletesStudentGroupFromTheList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPRMDPT_13057_VerifyThatTrainingManagerCanAddTrainerToTheGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/group/EPRMDPT_13262_VerifyThatTrainingManagerCanOpenTheGroupsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_13141_VerifyThatHomePageIsPresentedForUnregisteredUserFromBy.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_13146_VerifyThatUnregisteredUserHasAccessToAllPagesPresentedInHeaderMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_13233_VerifyProfileMenuDDLForRegisteredUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_13235_VerifyThatRegisteredUserCanSignOut.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_22409_VerifyThatAfterClickingSignInInMenuIAMSignInFormIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_70471_VerifyThatTheSkillsBlockIsPlacedAboveTheFooterHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_77707_VerifyLanguageAcronymIsDisplayedAccordingToTheSelectedLanguageInMainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/home/EPMRDPT_77737_VerifyThatRegisteredUserHasAccessToAllPagesPresentedInHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeblog/EPMRDPT_14655_VerifyTheBlogSectionOfHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeblog/EPMRDPT_14657_VerifyAllArticlesLinkInBlogSectionOnHomePageIsWorking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeblog/EPMRDPT_14659_VerifyThatAnArticleDescriptionPageIsOpenedWhenUserClicksOnTheArticleTitleOnTheHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeblog/EPMRDPT_14661_VerifyThatAnArticlesDescriptionPageIsOpenedWhenUserClicksOnTheArticlesPreviewImageOnTheHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeblog/EPMRDPT_14663_VerifyThatArticleCardHasAllRequiredElementsOnTheHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homefooter/EPMRDPT_13176_VerifyFooterSectionOfHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homefooter/EPMRDPT_13237_VerifyTheLinksInTheFooter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homefooter/EPMRDPT_21915_21917_21919_VerifyTwitterFacebookLinkedInIconsInTheFooterSectionRedirectsToCorrectPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_13173_VerifyHeaderAndBannerOfHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_13232_VerifyThatRegisteredUserHasAccessToAllPagesPresentedInHeader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_14508_VerifyThatLocalizationBlockGlobeIconIsHighlightedOnHovering.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_21899_VerifyTheHeaderSectionContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_21900_VerifyTheBannerSectionOfHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_21923_21924_21922_21921_VerifyUnregisteredUserHasAccessToAboutAndFAQAndTrainingListAndBlogPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_22402_VerifyAfterClickingOnSignInButtonIAMSignInFormIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homeheader/EPMRDPT_22405_VerifyUserCanLogInViaIAM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/homelocalization/EPMRDPT_13142_VerifyItIsPossibleToChangeHomePageLocale.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_12968_StudentRegistrationForTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_13118_VerifyThatUserCanPassEnglishTestAfterRegistrationForATraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_13119_VerifyThatUserCanPassRegistrationTestAfterRegistrationForTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_13174_VerifyTheTrainingSectionOfHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_13178_VerifyTrainingDescriptionPageIsOpenedAfterClickingOnTrainingCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_13210_VerifyTheContentOfTrainingCardsOnTheHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_21905_VerifyTheSearchForTrainingsSectionContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_21906_VerifyThatViewMoreTrainingsLinkInTrainingsSectionIsHighlightedWhenHoverOver.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_22269_VerifyThatUserCanSelectLocationsOnTheTrainingSectionOnHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_22270_VerifyThatUserCanSelectTrainingsOnHomeScreenBySkills.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_22272_VerifyThatDreamTrainingPopupAppearsAfterClickingOnSubscribeButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_22479_VerifyThatUserReceivesNotificationAboutRegistrationForTheTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_34270_VerifyThatSubscribeForTrainingIsDisplayedOnHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometraining/EPMRDPT_34643_VerifyThatAfterClickingOnRegisterButtonOnTheTrainingCardRegistrationFormForTheTrainingProgramIsDisplayedForLoggedUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometrainingcenters/EPMRDPT_34207_VerifyThatUserIsRedirectedToTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/hometrainingcenters/EPMRDPT_34236_VerifyThatWhenUserClicksOnTheCardDescriptionOfTheUniversityOpens.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12971_VerifyUserHasAccessToLearningTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12972_VerifyUserHasAccessToTabsInLearning.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12973_VerifyContentOfTheLearningHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12974_VerifyTheContentOfTheLearningTaskPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12975_VerifyTheViewOfLessonTimeAndTopicIsSeenOnMonthTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12976_VerifyTheDetailsOfTheRegularTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12977_VerifyTheAbilityToSubmitAnAssignedOnlineTasksOnTasksTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12978_VerifyTheAbilityToSubmitRejectedOnlineTasksIfSeveralAttempts.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12981_VerifyStudentCanSeeTheInformationAboutTrainersOnTrainersTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_12982_VerifyThatStudentIsAbleToSeeMarksForTasksAndOnlineTasksOnTheRelevantPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_13255_VerifyUserHasAccessToTrainersTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_13258_VerifyTheDetailsOfTheCurrentOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_26564_VerifyTheContentOfTableGroupsSectionOfHomeTabOfLearningPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_26566_VerifyTheContentOfLisTabFromCalendarTabsSectionOfHomeTabOfLearningPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_26747_VerifyTheContentOfCalendarHeadingSectionOfHomeTabOfLearningPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_26748_VerifyContentOfCalendarDatesSectionOfHomeTabOfLearningPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_26754_VerifyStudentIsAbleToSeeMarksOnlineTasksOnTheRelevantPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_56196_VerifyThatUserCanSeeCommentFromTrainersForPassedOrRejectedOnlineTask.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPMRDPT_77733_VerifyThatAddedToReviewersFieldTrainerIsDisplayedInOnlineTaskPopUpInStudentProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPRMDPT_13257_VerifyUserCanSeeLessonsDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPRMDPT_26562_VerifyTheContentOfLearningTabsSectionOfHomeTabOfLearningPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPRMDPT_26567_VerifyThatTopicNameLinkAtListTabShowsLessonDetailsPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPRMDPT_26750_VerifyClickingOnRegularTaskNameOnEpamTrainingTabShowsRegularTaskPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/learning/EPRMDPT_26753_VerifyStudentIsAbleToSeeMarksForRegularTasksOnTheRelevantPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/news_management/EPMRDPT_14330_VerifyUserIsRedirectedOnEditNewsItemPageAfterClickingOnSubjectOfNews.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/notification/EPMRDPT_12983_VerifyNotificationsOnStudentsHomePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/notification/EPMRDPT_13236_VerifyThatNotificationPageIsPresentedAfterClickingAllNotificationsLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/notification/EPMRDPT_26757_26758_VerifyTheContentOfNotificationsWindowOnStudentHomePageForMoreThanSevenNotifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/notification/EPMRDPT_26760_VerifyTheNotificationWindowContent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/notification/EPMRDPT_77620_CheckThatAnEmailSentToTheUserInTheOwnerFieldAfterClickingOnNotifyMembersButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_102790_VerifyThatEnglishLevelColumnContainsCandidateIsEnglishLevelAsSetInTheirUserIsProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_13065_VerifyThatTrainingManagerCanSaveListOfTheParticipantsToExcelFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_13067_VerifyIfTrainingManagerCanSelectAnyStatusForApplicant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_13185_VerifyIfTrainingManagerCanSearchParticipantsViaStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_13186_VerifyIfTrainingManagerCanSearchParticipantsViaSearchFields.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_13261_VerifyThatTrainingManagerCanOpenTheParticipantsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_79691_VerifyElementsOfStudentCard.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_79697_VerifyTheSearchBarCanBeTriggeredByApplyButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_79710_VerifyTheElementsOfTheFiltersBlockForDepartmentAffiliateTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/participants/EPMRDPT_79797_VerifyTheElementsOfTheConfigureColumnsPopUp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_13000_VerifyUserHasTheOpportunityToPassEnglishTestThroughProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_13159_VerifyThatUserCanEditProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_13234_VerifyInformationAboutUserIsDisplayedOnProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_24557_VerifyProfessionalInfoTabOfTheUserProfilePageIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_25998_VerifyTheContentOfProfessionalInfoTabOnProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_26276_VerifyThatPopUpMessageOnProfilePageAppearsIfUserDidNotFillHisProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_26277_VerifyThatTrainingPortalMessageOnProfilePageDisappears.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_28149_VerifyTheContentOfTrainingInfoTabOnProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_34228_VerifyTheApplicationsTabElements.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_55766_VerifyThatTrainingInfoTabOfTheUserProfilePageIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/profile/EPMRDPT_77746_VerifyTheContentOfTheGeneralInfoOnProfilePage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/skills_management/EPMRDPT_97283_VerifyThatEditSkillDescriptionIsOpenAfterClickingOnTheAnySkillLinkFromTheSkillList.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/skills_management/EPMRDPT_97286_VerifyThatSkillDescriptionCanBeDeletedByClickingOnTheDeleteButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/skills_management/EPMRDPT_97315_VerifyChangesAreSavedAfterClickingOnSaveChangesButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_100743_VerifyTakeTestButtonIsActiveIfEnglishTestHasBeenReassigned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_105581_VerifyThatUserInRegisteredStatusDoesNotReceiveEventRecordingIsAvailableNotificationWhenAddLinkToEventRecordingBlockIsNotCompleted.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_39914_VerifyThatUserCanOpenTasksTabOnTheTrainingTabPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_39933_VerifyThatUserCanCheckSubmittedTaskUsingCheckPopUpWindow.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_44743_VerifyThatTheUserCanOpenMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_44764_VerifyThatUserCanAddClassToTheScheduleComponentOnMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_44765_VerifyThatUserCanOpenGroupJournalFromGroupsListAtMyGroupsTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_44767_VerifyThatUserCanAddClassToTheGroupJournalComponentOnTheGroupJournalPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_44776_VerifyTheUserCanOpenTaskJournalTabForGroupInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_53954_VerifyThatOtherTrainersOfTheDesiredGroupCanSeeAddedCommentsInTheCommentColumnInTheGraduateReport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_54100_VerifyThatUserCanAssignOnlineTaskForStudentOnTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_54108_VerifyThatUserCanCallsUpTheAddClassPopUpOnScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_59314_VerifyThatUserCanChooseTheTimePeriodForDataDisplayingUsingDailyFilterInTheGroupJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_59315_VerifyThatUserCanChooseTheTimePeriodForDataDisplayingUsingDailyFilterInTheTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_77616_VerifyThatAllFilledInFieldsInTheTextBlocksSectionAreDisplayedOnTheTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_79515_VerifyThatTrainerHasAccessToATrainingTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training/EPMRDPT_92341_VerifyThatTheCountryFieldContainsOnlyTheCountriesOfTheTrainingParticipants.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_100742_VerifyThatByClickingOnTheYesButtonTheEnglishTestIsReassignedToTheUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13052_VerifyThatTrainingManagerCanSaveChangesOfTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13055_VerifyTrainerManagerCanViewStudentsDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13059_VerifyThatTrainingManagerCanFinishTheGroup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13062_VerifyThatTrainingManagerCanSearchTrainingsUsingDDLAndCheckboxes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13190_VerifyIfTrainingManagerCanChangeTrainingStatusToRegistrationOpen.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13192_13193_VerifyThatUserIsAbleToLinkACToTrainingAndATableWithTheRequiredColumnsAppearsInTheACSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13268_VerifyThatTrainingManagerCanViewTrainerInfo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13276_VerifyThatUserCanSaveChangesInGroupDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_13277_VerifyTheElementsOnTheTrainingManagementPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_30812_VerifyTheContentOfNotifyMembersPopup.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_34276_VerifyIfTrainingHasStatusPlannedOrRegistrationOpenTheCopyRegistrationLinkButtonShouldIsAvailableForDepartmentAffiliate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_54101_VerifyStatusOfOnlineTaskIfDeadlineHasPassed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_54103_VerifyUserCanChangeStatusOfTaskToUnassignedFromAssignedToOneStudentInTaskJournal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_54109_VerifyTheContentOfTheScheduleComponentOnTheScheduleTab.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_55874_VerifyThatTheStandardSurveyCanBeAddedToTheTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_77627_VerifyAllStatusesOfTrainingInStatusBar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_77632_VerifyThatUserCanChangeTrainingStatusFromRegistrationClosedToRegistrationOpenPlannedAndDraftInAnyOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_77714_77715_VerifyThatSelectLanguageButtonIsAvailableByAUserFromAnyTabDuringTrainingCreation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_77730_VerifyThatTheReviewersFieldIsPrefilledWithAnIndividualReviewerForASingleAssignmentOfAnOnlineTaskToAStudentIfStudentHasIndividualMentor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_77732_VerifyThatIndividualReviewersAreAssignedAutomaticallyWhenMakingBulkAssignmentOfOnlineTaskToStudents.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_79686_VerifyTheAbilityToSelectOneParticipant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/training_management/EPMRDPT_86400_VerifyThatEducationPracticePresentInTypeDDL.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13179_VerifyTheContentOfSkillsListSection.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13180_VerifyContentOfTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13181_VerifyContentOfTrainingSectionOfTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13211_VerifyBannerTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13213_VerifyHomeLinkInTheNavigationLinkSectionIsWorking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13217_VerifyUserCanSelectSkillsInSearchFiltersOnTheTrainingLstPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13218_VerifyUserCanSelectLocationsInSearchFiltersOnTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13219_VerifyViewMoreTrainingLink.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_13220_VerifyDreamTrainingPopUpAppearsAfterClickingOnSubscribeButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_14524_VerifyThatUserCanSelectSkillForTrainingSearchThroughSearchForTrainingsFilterToggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_14527_VerifyThatUserCanSelectCountryForSearchThroughSearchForTrainingsFilterToggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_14531_VerifyThatSubscribeTrainingPopUpAppearsAfterClickingOnSubscribeButton.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_22433_VerifyAfterUploadingAllOurSkillsSectionViewMoreSkillsLinkNotDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_22440_VerifyThatUserCanAddLocationThroughSearchForTrainingsFilterToggle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_22445_VerifyContentTrainingSectionOfTrainingListPageForNoneFoundTrainings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_34284_VerifyThatTheUserCanFilterAllTrainingProgramsByAttributes.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_34714_VerifyThatTheTrainingCardIsClickableOverallAndLeadsToTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_38789_VerifyTheContentOfTrainingCardsOnTheTrainingListPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_56108_VerifyTheTrainingManagerCanForbidSelfRegistrationToTheTrainingOnTheTrainingDetailsPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_70469_VerifyThatAppropriateSkillDescriptionPageOpensAfterAClickOnTheSkillCardIfTheSkillIsInPublishedStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_71983_VerifyThatCopiedTrainingIsDisplayed.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77628_VerifyThatTimeLimitedTrainingsDisplayInTrainingListOnlyIfTheyHaveStartDateInFuture.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77629_VerifyTrainingCardDisplayOnTrainingListPageIsNotAffectedByTrainingStartDateForOngoingTraining.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77631_VerifyThatUserCanSubscribeTrainingInStatusPlanned.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77653_VerifyThatUserReceivesTheDefaultAutoreplyLetterAfterRegistration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77670_VerifyThatAUserCanPassTheRegistrationTestFollowingTheLinkInBellNotifications.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_77723_VerifyAllOfTheTrainingLanguagesAreShownOnTheTrainingDescriptionPage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/elearning/smoke/traininglist/EPMRDPT_92327_VerifyCareerTestResultsPageIsDisplayedWhenUserFinishesTheTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -20,19 +1111,25 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2T3Rc1xISWHuAbTBqghSl1THwAy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Coding/UI_API_Tests/java-testing"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Coding/UI_API_Tests/java-testing&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38638455&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Coding\UI_API_Tests\java-testing" />
@@ -40,6 +1137,68 @@
       <recent name="C:\Coding\UI_API_Tests\java-testing\src\main\resources" />
       <recent name="C:\Coding\UI_API_Tests\java-testing\src\main" />
     </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AppleInsiderTest.checkUrl">
+    <configuration name="AppleInsiderTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apple_insider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apple_insider" />
+      <option name="MAIN_CLASS_NAME" value="com.apple_insider.AppleInsiderTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AppleInsiderTest.checkUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-testing" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.apple_insider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.apple_insider" />
+      <option name="MAIN_CLASS_NAME" value="com.apple_insider.AppleInsiderTest" />
+      <option name="METHOD_NAME" value="checkUrl" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java-testing" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AppleInsiderTest.checkUrl" />
+        <item itemvalue="JUnit.AppleInsiderTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -64,7 +1223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690273146271</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="My New Project">
+      <created>1690273515468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690273515468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -81,5 +1247,20 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="My New Project" />
     <option name="LAST_COMMIT_MESSAGE" value="My New Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/apple_insider/AppleInsiderTest.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
